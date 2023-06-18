@@ -16,6 +16,7 @@ body{
 /* Empalcement logo en fonction tire */
 .title {
     margin: 0 20px;
+    font-size: 85px;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -71,5 +72,6 @@ body{
 }
 
 .text strong{
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
