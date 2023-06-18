@@ -1,0 +1,77 @@
+/* Paramètre de la page */
+body{
+    background-color: #c0dcd8;
+    /* background-color: #ffdbce; */
+    margin: 0;
+    padding: 0;
+}
+
+/* Placememnt titre et logo */
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+/* Empalcement logo en fonction tire */
+.title {
+    margin: 0 20px;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Taille de l'image */
+.logo {
+    width: 300px;
+    height: 220px;
+}
+
+/* Emplacement bouton */
+.language-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Taille bouton */
+.language-button {
+    margin-left: 5px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/* Emplacement des container */
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Emplamcent des container unique */
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ 
+/* Ajustez la taille de l'image*/
+.image {
+    width: 400px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+/* Ajustez la taille et l'emplacement du texte */
+.text {
+    margin: 50px;
+    width: 520px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text strong{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
